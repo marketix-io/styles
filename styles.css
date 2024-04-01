@@ -1,0 +1,802 @@
+.macbook-pro {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .macbook-pro .header-section {
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    align-items: center;
+    gap: 64px;
+    padding: 30px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .macbook-pro .container {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0px 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .content {
+    flex-direction: column;
+    gap: 40px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .heading-and {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .subheading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-md-semibold-font-family);
+    font-weight: var(--text-md-semibold-font-weight);
+    color: var(--blue-light500);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    font-style: var(--text-md-semibold-font-style);
+  }
+  
+  .macbook-pro .heading {
+    font-size: var(--display-lg-semibold-font-size);
+    letter-spacing: var(--display-lg-semibold-letter-spacing);
+    line-height: var(--display-lg-semibold-line-height);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--display-lg-semibold-font-family);
+    font-weight: var(--display-lg-semibold-font-weight);
+    color: var(--gray-900);
+    font-style: var(--display-lg-semibold-font-style);
+  }
+  
+  .macbook-pro .header-section-2 {
+    display: flex;
+    width: 1728px;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 30px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .macbook-pro .content-wrapper {
+    flex-direction: column;
+    width: 595px;
+    height: 390px;
+    gap: 32px;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 32px;
+    position: relative;
+  }
+  
+  .macbook-pro .content-2 {
+    justify-content: center;
+    gap: 32px;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    backdrop-filter: blur(16px) brightness(100%);
+    -webkit-backdrop-filter: blur(16px) brightness(100%);
+  }
+  
+  .macbook-pro .modal-2 {
+    gap: 24px;
+    padding: 24px;
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .content-3 {
+    flex-direction: column;
+    gap: 32px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .text-and-supporting {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .text {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-lg-semibold-font-family);
+    font-weight: var(--text-lg-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-lg-semibold-font-size);
+    letter-spacing: var(--text-lg-semibold-letter-spacing);
+    line-height: var(--text-lg-semibold-line-height);
+    font-style: var(--text-lg-semibold-font-style);
+  }
+  
+  .macbook-pro .supporting-text {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-sm-regular-font-family);
+    font-weight: var(--text-sm-regular-font-weight);
+    color: var(--gray-600);
+    font-size: var(--text-sm-regular-font-size);
+    letter-spacing: var(--text-sm-regular-letter-spacing);
+    line-height: var(--text-sm-regular-line-height);
+    font-style: var(--text-sm-regular-font-style);
+  }
+  
+  .macbook-pro .div-2 {
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--ros-500);
+    border-radius: 8px;
+  }
+  
+  .macbook-pro .button-base {
+    display: flex;
+    padding: 10px 18px;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+  }
+
+  .macbook-pro .button-base:hover {
+    background-color: #000000; /* Change to your preferred hover background color */
+    transform: translateY(-2px); /* Slight lift effect */
+    /* Optionally, you can also change other properties like color, border, etc. */
+}
+  
+  .macbook-pro .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-md-semibold-font-family);
+    font-weight: var(--text-md-semibold-font-weight);
+    color: var(--white);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-semibold-font-style);
+  }
+  
+  .macbook-pro .button-base-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 8px;
+  }
+  
+  .macbook-pro .div-wrapper {
+    display: flex;
+    padding: 10px 18px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--success-500);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    box-shadow: var(--shadow-xs);
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    border-color: var(--success-500);
+  }
+  
+  .macbook-pro .container-2 {
+    flex-wrap: wrap;
+    width: 482px;
+    gap: 32px 32px;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 32px;
+    position: relative;
+  }
+  
+  .macbook-pro .content-4 {
+    justify-content: center;
+    gap: 32px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .pricing-tier-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--white);
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: var(--gray-200);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .macbook-pro .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 40px 32px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .heading-and-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .text-wrapper-2 {
+    margin-top: -1px;
+    font-size: var(--text-xl-semibold-font-size);
+    letter-spacing: var(--text-xl-semibold-letter-spacing);
+    line-height: var(--text-xl-semibold-line-height);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-xl-semibold-font-family);
+    font-weight: var(--text-xl-semibold-font-weight);
+    color: var(--gray-900);
+    font-style: var(--text-xl-semibold-font-style);
+  }
+  
+  .macbook-pro .p {
+    font-size: var(--text-md-regular-font-size);
+    line-height: var(--text-md-regular-line-height);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-600);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    font-style: var(--text-md-regular-font-style);
+  }
+  
+  .macbook-pro .check-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px 32px 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .check-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .check-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .macbook-pro .text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .macbook-pro .text-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-600);
+    font-size: var(--text-md-regular-font-size);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    line-height: var(--text-md-regular-line-height);
+    font-style: var(--text-md-regular-font-style);
+  }
+  
+  .macbook-pro .section {
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    align-items: center;
+    gap: 64px;
+    padding: 0px 0px 96px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .macbook-pro .content-5 {
+    justify-content: center;
+    gap: 32px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .price {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 60px;
+  }
+  
+  .macbook-pro .price-2 {
+    left: 62px;
+    position: absolute;
+    top: -1px;
+    font-family: var(--display-lg-semibold-font-family);
+    font-weight: var(--display-lg-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--display-lg-semibold-font-size);
+    text-align: center;
+    letter-spacing: var(--display-lg-semibold-letter-spacing);
+    line-height: var(--display-lg-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--display-lg-semibold-font-style);
+  }
+  
+  .macbook-pro .heading-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--text-xl-semibold-font-family);
+    font-weight: var(--text-xl-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-xl-semibold-font-size);
+    text-align: center;
+    letter-spacing: var(--text-xl-semibold-letter-spacing);
+    line-height: var(--text-xl-semibold-line-height);
+    font-style: var(--text-xl-semibold-font-style);
+  }
+  
+  .macbook-pro .supporting-text-2 {
+    font-size: var(--text-md-regular-font-size);
+    text-align: center;
+    line-height: var(--text-md-regular-line-height);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-600);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    font-style: var(--text-md-regular-font-style);
+  }
+  
+  .macbook-pro .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 32px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 8px;
+  }
+  
+  .macbook-pro .button-base-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--blue-light500);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    box-shadow: var(--shadow-xs);
+    border-color: var(--blue-light500);
+  }
+  
+  .macbook-pro .price-3 {
+    left: 61px;
+    position: absolute;
+    top: -1px;
+    font-family: var(--display-lg-semibold-font-family);
+    font-weight: var(--display-lg-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--display-lg-semibold-font-size);
+    text-align: center;
+    letter-spacing: var(--display-lg-semibold-letter-spacing);
+    line-height: var(--display-lg-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--display-lg-semibold-font-style);
+  }
+  
+  .macbook-pro .price-4 {
+    left: 65px;
+    position: absolute;
+    top: -1px;
+    font-family: var(--display-lg-semibold-font-family);
+    font-weight: var(--display-lg-semibold-font-weight);
+    color: var(--gray-900);
+    font-size: var(--display-lg-semibold-font-size);
+    text-align: center;
+    letter-spacing: var(--display-lg-semibold-letter-spacing);
+    line-height: var(--display-lg-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--display-lg-semibold-font-style);
+  }
+  
+  .macbook-pro .overlap-group {
+    position: absolute;
+    width: 161px;
+    height: 62px;
+    top: -71px;
+    left: 259px;
+  }
+  
+  .macbook-pro .hand-drawn-arrow {
+    position: absolute;
+    width: 69px;
+    height: 57px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .macbook-pro .text-3 {
+    position: absolute;
+    top: 0;
+    left: 68px;
+    font-family: var(--text-sm-medium-font-family);
+    font-weight: var(--text-sm-medium-font-weight);
+    color: var(--blue-light500);
+    font-size: var(--text-sm-medium-font-size);
+    letter-spacing: var(--text-sm-medium-letter-spacing);
+    line-height: var(--text-sm-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-sm-medium-font-style);
+  }
+  
+  .macbook-pro .features-section {
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    align-items: center;
+    gap: 64px;
+    padding: 96px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--gray-50);
+  }
+  
+  .macbook-pro .heading-and-wrapper {
+    flex-direction: column;
+    gap: 48px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .heading-and-3 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .heading-3 {
+    margin-top: -1px;
+    font-size: var(--display-md-semibold-font-size);
+    letter-spacing: var(--display-md-semibold-letter-spacing);
+    line-height: var(--display-md-semibold-line-height);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--display-md-semibold-font-family);
+    font-weight: var(--display-md-semibold-font-weight);
+    color: var(--gray-900);
+    font-style: var(--display-md-semibold-font-style);
+  }
+  
+  .macbook-pro .supporting-text-3 {
+    font-size: var(--text-xl-regular-font-size);
+    line-height: var(--text-xl-regular-line-height);
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-xl-regular-font-family);
+    font-weight: var(--text-xl-regular-font-weight);
+    color: var(--gray-600);
+    letter-spacing: var(--text-xl-regular-letter-spacing);
+    font-style: var(--text-xl-regular-font-style);
+  }
+  
+  .macbook-pro .container-3 {
+    flex-direction: column;
+    width: 1280px;
+    gap: 64px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 32px;
+    position: relative;
+  }
+  
+  .macbook-pro .content-6 {
+    gap: 32px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .macbook-pro .feature-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .macbook-pro .featured-icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-color: var(--brand-100);
+    border-radius: 24px;
+  }
+  
+  .macbook-pro .img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 12px;
+  }
+  
+  .macbook-pro .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .macbook-pro .button-base-3 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .macbook-pro .text-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-md-semibold-font-family);
+    font-weight: var(--text-md-semibold-font-weight);
+    color: var(--brand-700);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-semibold-font-style);
+  }
+  
+  .macbook-pro .arrow-right {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .macbook-pro .header-section,
+  .macbook-pro .header-section-2 {
+    width: 100%; /* Full width on mobile devices */
+    padding: 10px 20px; /* Slightly larger padding for smaller devices */
+    /* Other mobile-specific styles... */
+  }
+    .macbook-pro .section,
+    .macbook-pro .features-section,
+    .macbook-pro .container,
+    .macbook-pro .container-2,
+    .macbook-pro .container-3 {
+      width: 100%; /* Full width on mobile devices */
+      padding: 20px; /* Adjust padding */
+    }
+  
+    .macbook-pro .heading-and,
+    .macbook-pro .heading-and-2,
+    .macbook-pro .heading-and-3,
+    .macbook-pro .content-wrapper,
+    .macbook-pro .content-2,
+    .macbook-pro .content-3,
+    .macbook-pro .content-4,
+    .macbook-pro .content-5,
+    .macbook-pro .content-6,
+    .macbook-pro .text-and-supporting,
+    .macbook-pro .div,
+    .macbook-pro .div-2,
+    .macbook-pro .div-wrapper,
+    .macbook-pro .text-wrapper,
+    .macbook-pro .modal,
+    .macbook-pro .modal-2 {
+      width: 100%; /* Make these elements take full width */
+      align-items: center; /* Center alignment for a better mobile view */
+    }
+  
+    .macbook-pro .heading,
+    .macbook-pro .subheading,
+    .macbook-pro .text,
+    .macbook-pro .supporting-text,
+    .macbook-pro .text-2,
+    .macbook-pro .text-3,
+    .macbook-pro .text-4 {
+      font-size: smaller; /* Adjust font sizes for mobile */
+    }
+  
+    /* Adjust layout for flex items to stack vertically on smaller screens */
+    .macbook-pro .content,
+    .macbook-pro .content-2,
+    .macbook-pro .content-3,
+    .macbook-pro .content-4,
+    .macbook-pro .content-5,
+    .macbook-pro .content-6,
+    .macbook-pro .button,
+    .macbook-pro .button-base,
+    .macbook-pro .button-2,
+    .macbook-pro .button-base-2,
+    .macbook-pro .button-3,
+    .macbook-pro .button-base-3,
+    .macbook-pro .check-items,
+    .macbook-pro .pricing-tier-card {
+      flex-direction: column; /* Stack children vertically */
+    }
+  }
+  
+  /* You might want to add more breakpoints, like for tablets */
+  @media (max-width: 1024px) {
+    /* Tablet-specific styles */
+  }
